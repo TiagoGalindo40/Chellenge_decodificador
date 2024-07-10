@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root {
+    --cor-primaria: #A0937D;
+    --cor-secundaria: #E7D4B5;
+    --cor-terciaria: #F6E6CB;
+    --cor-hover: #B6C7AA;
+
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+        
+}
+
+body{
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+       
+}
+
+.main {
+    width: 50%;
+    height: 50%;
+    flex: 1;
+    align-items: center;
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 15%;
+}
+
+.main__textarea{
+    resize: none;
+    width: 50%;
+    height: 50%;
+    font-size: 1.6rem;
+    color: #000000;
+    padding: 1.6rem;
+    align-items: center;
+}
+
+.header__title{
+    font-family: var(--fonte-primaria);
+    font-size: 2.5rem;
+    align-content: center;
+}
+
+
+.header__avatar{
+    list-style: none;
+    display: flex;
+        
+}
+
+.header__menu{
+    list-style: none;
+    display: flex;
+    position:relative;
+    align-items: flex-end;
+}
+
+
+.header__image{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+    margin: 15px;
+    transition: 0.3s ease;
+}
+
+.header__image:hover{
+    transform: rotateY(180deg);
+}
+
+.button__primary {
+    background: #FF940B;
+    background-image: -webkit-linear-gradient(top, #FF940B, #F6AE3D);
+    background-image: -moz-linear-gradient(top, #FF940B, #F6AE3D);
+    background-image: -ms-linear-gradient(top, #FF940B, #F6AE3D);
+    background-image: -o-linear-gradient(top, #FF940B, #F6AE3D);
+    background-image: -webkit-gradient(to bottom, #FF940B, #F6AE3D);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: 'Courier New';
+    font-size: 20px;
+    font-weight: 100%;
+    padding: 20px;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #FFFFFF 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .button__primary:hover {
+    border: solid #FFFFFF 1px;
+    background: #FBD39F;
+    background-image: -webkit-linear-gradient(top, #FBD39F, #F6AE3D);
+    background-image: -moz-linear-gradient(top, #FBD39F, #F6AE3D);
+    background-image: -ms-linear-gradient(top, #FBD39F, #F6AE3D);
+    background-image: -o-linear-gradient(top, #FBD39F, #F6AE3D);
+    background-image: -webkit-gradient(to bottom, #FBD39F, #F6AE3D);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+                
+
+
+
+
+
+
+
